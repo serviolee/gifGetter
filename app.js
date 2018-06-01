@@ -1,3 +1,10 @@
 $(document).ready(function() {
-  $('body').html(`<p>woof<p>`)
-})
+
+  $('.submitForm').on('click', function() {
+    let textFieldValue = $('.textField').val();
+    $('.debug').text(textFieldValue);
+
+  });
+
+});
+
