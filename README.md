@@ -10,7 +10,7 @@ Goals:
 - [x] make it handle code! (use a textarea instead of a text)
 - [x] have two fields, one is a short name the other is the snippet
 - [x] going to store the name and code inside localStorage
-- [ ] display all snippets
+- [x] display all snippets
 - [x] search for a snippet using the name
 
 

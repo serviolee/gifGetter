@@ -5,7 +5,7 @@ $(document).ready(function() {
   };
 
   $('.setData').on('click', function() {
-    var saveSnippet = function() {
+    var storeSnippet = function() {
     	var tempObj = {};
     	var tempArr = [];
     	let snippetName = $('.textField').val();
@@ -15,7 +15,7 @@ $(document).ready(function() {
     	tempArr.push(tempObj);
         object.storage.push(tempArr);
     }
-    saveSnippet();
+    storeSnippet();
     $('.textField').val('');
     $('.textSnippet').val('');
     localStorage.setItem('storedSnippets', JSON.stringify(object));
