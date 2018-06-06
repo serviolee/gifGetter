@@ -3,21 +3,46 @@
 <head>
   <meta charset="utf-8">
   <title>gifGetter</title>
-  <script 
+<!--   <script 
           src="https://code.jquery.com/jquery-3.3.1.js">
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="           
-          crossorigin="anonymous"</script>
-  <!-- <script src='libs/jquery.js'></script> -->
+          crossorigin="anonymous"</script> -->
+  <script src='lib/jquery.js'></script>
   <script src='app.js'></script>
+  <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <body> 
-
-  <input class='textField' type='test' name='firstInputField'>
-  <button class='setData'>Click to save text</button>
-  <button class='getData'>Click to get text</button>
-
-<div class='debug'></div>
-
+  <div class='container'>
+    <div class='title'><strong>snippets</strong></div>
+    <div class='name' type='text' name='shortName'>  
+      <textarea class='textSnippet' name='textarea' rows='17' cols='50'></textarea>
+      <input class='textField' type='text' name='firstInputField'>
+      <button class='setData'>Click to save snippet</button>
+    </div>
+    <div class='debug'>
+      <input class='searchSnippets' type='search'>
+      <button class='getData'>Click to get snippet</button>
+      <button class='showAll'>Click to show all snippets</button>
+    </div> 
+  </div>
 </body>
-</html>
+</html> 
+
+
+    <div class="wrapper">
+        <div class="appTitle">add snippets</div>
+        <div class="textWrap">
+            <input class="textName" type="text" name="nameInputField"> <!-- Field for name of snippet -->
+            <textarea class="textSnip" name="snippetInputField" rows="12" cols="50"></textarea>
+            <button class="setData">Submit Snippet</button> <!-- Should change to submit snippet name -->
+             <!-- Should only have one button submit the name and the snippet -->
+            <!-- textArea should be used to submit snippet textField for name -->
+            <!-- A second area of the page should be used to display the name of the snippet and snippet snippet ideally should format like code -->
+        </div>    
+        <div class="snippetWrapper">
+            <input type="searchText" name="searchSnippets" class="searchInput">
+            <button class="getSnip">Get Snippet</button>
+            <button class="showAll">Show All Snippets</button>
+        </div>
+    </div>
 
