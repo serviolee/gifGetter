@@ -14,13 +14,13 @@
 <body> 
   <div class='container'>
     <div class='title'><strong>snippets</strong></div>
-    <div class='name' type='text' name='shortName'>  
-      <textarea class='textSnippet' name='textarea' rows='17' cols='50'></textarea>
-      <input class='textField' type='text' name='firstInputField'>
+    <div class='textArea'>  
+      <textarea class='textSnippet' name='textarea' rows='17' cols='50' placeholder="Enter snippet code"></textarea>
+      <input class='textField' type='text' name='firstInputField' placeholder='Enter snippet name'>
       <button class='setData'>Click to save snippet</button>
     </div>
     <div class='debug'>
-      <input class='searchSnippets' type='search'>
+      <input class='searchSnippets' type='search' placeholder='Enter snippet search name'>
       <button class='getData'>Click to get snippet</button>
       <button class='showAll'>Click to show all snippets</button>
     </div> 
@@ -28,21 +28,4 @@
 </body>
 </html> 
 
-
-    <div class="wrapper">
-        <div class="appTitle">add snippets</div>
-        <div class="textWrap">
-            <input class="textName" type="text" name="nameInputField"> <!-- Field for name of snippet -->
-            <textarea class="textSnip" name="snippetInputField" rows="12" cols="50"></textarea>
-            <button class="setData">Submit Snippet</button> <!-- Should change to submit snippet name -->
-             <!-- Should only have one button submit the name and the snippet -->
-            <!-- textArea should be used to submit snippet textField for name -->
-            <!-- A second area of the page should be used to display the name of the snippet and snippet snippet ideally should format like code -->
-        </div>    
-        <div class="snippetWrapper">
-            <input type="searchText" name="searchSnippets" class="searchInput">
-            <button class="getSnip">Get Snippet</button>
-            <button class="showAll">Show All Snippets</button>
-        </div>
-    </div>
 

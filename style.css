@@ -1,3 +1,11 @@
+input {
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}
 
 .container {
     margin: 0 auto;
@@ -6,31 +14,19 @@
     flex-flow: column wrap;
     width: 1000px;
 }
+
 .title {
-    text-align: center;
+    text-align: justify-all;
     font-size: 25px;
 }
-.textSnip {
-    padding: .5rem;
-    margin: 5px;
+
+.textSnippet {
+    padding: 10px;
+    margin: auto;
 }
-pre, code {
-    font-family: monospace, monospace;
-}
-pre {
-    overflow: auto;
-}
-pre > code {
-    display: block;
-    padding: .5rem;
-    word-wrap: normal;
-}
-.snippetWrapper {
+
+.debug {
     margin-top: 20px;
 }
-input {
-    margin: 5px;
-}
-button {
-    margin: 5px;
-}
+
+
